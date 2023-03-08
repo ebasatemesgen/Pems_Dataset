@@ -3,7 +3,7 @@ import math
 import torch.nn as nn
 import torch.nn.functional as F
 
-from models.odegcn import ODEG
+from Pems_Dataset.models.odegcn import ODEG
 
 
 class MLP(nn.Module):
